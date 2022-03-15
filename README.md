@@ -1,4 +1,4 @@
-# Modified Version Of [Media Search bot](https://github.com/Jinn-of-telegram/Media-Search-bot-v2)
+
 
 ## Example Bot [Imdb Bot](https://t.me/Ma_autofilterbot)
 
@@ -18,7 +18,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LXR-YOUTUBER-AMAL/Media-Search-bot-v2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adithyand2009/Auto-Filter-Movie-)
 ### Hard Way
 
 ```bash
@@ -37,9 +37,7 @@ python3 bot.py
 ```
 Check [`sample_info.py`](sample_info.py) before editing [`info.py`](info.py) file
 
-### Thank You [Subinps](https://t.me/Subinps_bot)
-### Thank You [LXR YOUTUBER](https://t.me/malayalammoviesmmms)
-### Thank You [AMAL](https://github.com/LXRYOUTUBERYT)
+
 
 ## Variables
 
