@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4')
+                        InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtube.com/channel/UCmQci4U637yMvyHRCo8n4Rg')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -81,9 +81,8 @@ async def start(bot, cmd):
     elif len(cmd.command) > 1 and cmd.command[1] == 'subscribe':
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
-            chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
-            reply_markup=InlineKeyboardMarkup(
+            chat_id=cmd.from_user.id,           
+           reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
@@ -100,14 +99,13 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("📺 𝗦𝗘𝗔𝗥𝗖𝗛 𝗛𝗘𝗥𝗘 🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/MM2NDCHANNEL'),
+                        InlineKeyboardButton("📥 𝗢𝗧𝗧 𝗠𝗢𝗩𝗜𝗘𝗦 📥", url='https://t.me/FlimKottaram'),
                     ],
                    [
-                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/malayalammoviesmms'),
-                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://youtu.be/2tek7Y5CEF4'),
+                       InlineKeyboardButton("🍿 𝗠𝗢𝗩𝗜𝗘𝗦 📺", url='https://t.me/FlimKottaram'),
+                       InlineKeyboardButton("🔔 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🔔", url='https://youtube.com/channel/UCmQci4U637yMvyHRCo8n4Rg'),
                     ],
-                     [
-                        InlineKeyboardButton("🗣️ 𝗔𝗕𝗢𝗨𝗧", callback_data="about")
+                     [                        
                     ]
                 ]
             )
@@ -196,18 +194,18 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗔𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtube.com/channel/UCmQci4U637yMvyHRCo8n4Rg'),
+            InlineKeyboardButton('📥 𝗚𝗥𝗢𝗨𝗣 📥', url='https://t.me/FlimKottaram')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/malayalammoviemmms'>꧁LXR=AMAL★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://youtu.be/2tek7Y5CEF4'>Click here</a>\nUpdate Channel : <a href='https://t.me/MALAYALAMNEWMOVIESONLY1'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/FlimKottaram'>Tech Talk One</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://youtu.be/2tek7Y5CEF4'>Click here</a>\nUpdate Channel : <a href='https://t.me/MALAYALAMNEWMOVIESONLY1'>𝙹𝙾𝙸𝙽 𝙽𝙾𝚆</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 @Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtu.be/2tek7Y5CEF4'),
-            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/malayalammoviesmms')
+            InlineKeyboardButton('💌 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 💌', url='https://youtube.com/channel/UCmQci4U637yMvyHRCo8n4Rg'),
+            InlineKeyboardButton('࿐ 𝗦𝗨𝗣𝗣𝗢𝗨𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 ࿐', url='https://t.me/FlimKottaram')
         ]
         ]
     await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
